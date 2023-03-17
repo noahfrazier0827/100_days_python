@@ -3,8 +3,6 @@ weight = float(input("enter your weight in kg: "))
 
 BMI = round(weight / height**2)
 
-print(BMI)
-
 if BMI < 18.5 and BMI > 1:
     print (f"your BMI is {BMI}, you are underweight.")
 
