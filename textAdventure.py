@@ -39,7 +39,7 @@ while True:
             dayB = userDay.count("a")
             dayC = userDay.count("y")
             dayD = len(userDay)
-            if dayA + dayB + dayC == 3 and dayD ==6:
+            if dayA + dayB + dayC >= 3 and dayD ==6:
                 print(f"\033[0;32mOh yes, How could I forget it was {userDay}! As thanks, please take this pie!\033[0;0m")
                 print("\033[0;32mAs you eat the yummy apple pie, you notice a twinkle. There was a Gem baked inside!\033[0;0m")
                 gemCount.append(1)
