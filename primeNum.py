@@ -1,13 +1,8 @@
 
-# n = int(input("Check this number: "))
-# prime_checker(number=n)
-
-# n = int(input("insert number\n"))
-
-def prime_checker(number):
+def prime_checker(num):
     y = 0
-    for x in range(1, number + 1):
-        if number % x == 0:
+    for x in range(1, num + 1):
+        if num % x == 0:
             y += 1
             
     if y == 2:
