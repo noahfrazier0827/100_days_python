@@ -21,5 +21,7 @@ shift = int(input("Type the shift number:\n"))
 #TODO-3: Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message. 
 
 def encrypt(text, shift):
-    print(f"What {text} do you want to encrypt")
-    print(f"How much do you want to {shift}it by?")
+    for letter in text:
+        position = alphabet.index(letter)
+        new_pos = position + shift
+        new_letter = alphabet[new_pos]
