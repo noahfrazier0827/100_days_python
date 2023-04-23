@@ -8,7 +8,7 @@ for number in range(1, 101):
     else:
         print(number)
 
-# for the debug, changed the or in line 2, to and and changed the if statements to elifs
+# for the debug, changed the or in line 2, to and and changed the if statements to elifs, also go rid of brackets around number in the print.
 
 # for number in range(1, 101):
 #     if number % 3 == 0 or number % 5 == 0:
